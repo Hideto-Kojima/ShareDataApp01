@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ShareDataApp01": {
+    "ShareDataApp02": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ShareDataApp01:build:production"
+              "browserTarget": "ShareDataApp02:build:production"
             },
             "development": {
-              "browserTarget": "ShareDataApp01:build:development"
+              "browserTarget": "ShareDataApp02:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ShareDataApp01:build"
+            "browserTarget": "ShareDataApp02:build"
           }
         },
         "test": {
